@@ -2,6 +2,21 @@
 
 Common Lisp bindings + thin wrapper for [nuklear](https://github.com/Immediate-Mode-UI/Nuklear).
 
+## Installation
+
+From the takeiteasy Quicklisp dist:
+
+```lisp
+(ql-dist:install-dist "https://takeiteasy.github.io/ql-dist/dist/takeiteasy.txt")
+(ql:quickload :cl-nuklear)
+```
+
+Or clone into Quicklisp's local-projects:
+
+```sh
+git clone https://github.com/takeiteasy/cl-nuklear ~/quicklisp/local-projects/cl-nuklear
+```
+
 ## LICENSE
 
 ```text
